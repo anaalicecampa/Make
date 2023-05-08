@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Curso Online</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <h1>Curso Online</h1>
+        <nav>
+            <ul id="cabecalho">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#sobre">Conteúdo</a></li>
+                <li><a href="#preco">Preços</a></li>
+                <li><a href="#formulário">Inscreva-se</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>CURSO DE MAQUIAGEM</h2>
+            <p>O segredo da automaquiagem você bonita e pronta para qualquer ocasião 
+                .</p>
+            <a href="#formulário" class="btn">Inscreva-se agora</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <h2>SOBRE O CURSO</h2>
+        <p>A maquiagem pode ser considerada uma ferramenta para exaltar a beleza, aumentar a autoestima e disfarçar as imperfeições.
+            Além de seu caráter estético, as maquiagens atuais possuem também a função protetora, com os mais modernos produtos que protegem a pele e evitam o envelhecimento precoce. </p>
+        <p><strong>Nesse curso você aprenderá</strong></p>
+        <ul>
+            <li><img src="img/seta.png" alt="" width="15px"> Aprenda a fazer maquiagem em você ou em outras pessoas</li>
+            <li><img src="img/seta.png" alt="" width="15px">Curso mais completo da plataforma no assunto</li>
+            <li><img src="img/seta.png" alt="" width="15px">Make para o dia a dia </li>
+            <li><img src="img/seta.png" alt="" width="15px">Aprenda como identificar seu tipo de pele</li>
+        </ul>
+    </section>
+
+    <section id="preco" class="pricing">
+        <h2 class="branco">Preços</h2>
+        <ul id="valor">
+            <li><img src="img/seta.png" alt="" width="20px">Curso básico: R$200,00</li>
+            <li><img src="img/seta.png" alt="" width="20px">Curso avançado: R$450,00</li>
+            <li><img src="img/seta.png" alt="" width="20px">Curso completo: R$700,00</li>
+        </ul>
+        <p class="branco"><strong>Inscreva-se agora e obtenha R$80,00 de desconto!</strong></p>
+        <a href="#formulário" class="btn">Inscreva-se agora</a>
+    </section>
+
+        <main id="formulário">
+            <form action="">
+                <div>
+                    <label for="Seu Nome">Seu Nome</label>
+                    <input type="text" placeholder="" id="nome" required minlength="3" required maxlength="20">
+                </div>
+                
+                <div>
+                    <label for="E-mail">E-mail</label>
+                    <input type="email" placeholder="" id="email" required minlength="20" required maxlength="20">
+                </div>
+                
+                <div>
+                    <label for="Telefone">Telefone</label>
+                    <input type="tel" placeholder="" id="text" required minlength="15" required maxlength="15">
+                </div>
+
+                <div class="row">
+                    <label for="Senha">Senha</label>
+                        <input type="password" id="password" required minlength="15" required maxlength="15">
+                    </div>
+                </div>
+                <div class="espacamento">
+                    <button type="submit" class="btn botao"><strong>Quero uma avaliação</strong></button>
+                </div>
+            </form>
+        </main>
+  
+
+    <footer>
+        <p>Copyright © 2023</p>
+    </footer>
+<script src="senha.js"></script>
+</body>
+
+</html>
